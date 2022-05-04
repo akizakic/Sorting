@@ -22,7 +22,7 @@ O(n^2)의 형태를 띄고 있으나,
 
 ![insertion](https://github.com/akizakic/akizakic.github.io/blob/main/insertionSort.png?raw=true)
 
-정방향(sorted data)에 대한 값은 거의 일정하게 0에 수렴하고 있고 역방향(reversed data)에 대한 값은 최고조를 찍는 것을 보면,
+정방향(sorted data)에 대한 실행시간은 거의 일정하게 0에 수렴하고 있고 역방향(reversed data)에 대한 시간은 비교적 꽤나 높은 시간을 찍는 것을 보면,
 들어오는 데이터 값이 무엇이냐에 따라 실행시간이 많이 달라지는 것을 볼 수 있었다.  
 
 ## 쉘 정렬
