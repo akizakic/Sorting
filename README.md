@@ -8,7 +8,7 @@
 ![bubble](https://github.com/akizakic/akizakic.github.io/blob/main/bubbleSort.png?raw=true)
 
 O(n^2)의 형태를 띄고 있으나,    
-다른 정렬들과 비교하였을 떄 가장 오랜 실행시간이 걸림을 볼 수 있었다.
+다른 정렬들과 비교하였을 떄 가장 오랜 실행시간이 걸림을 볼 수 있다.
 
 
 ## 선택정렬
@@ -29,6 +29,11 @@ O(n^2)의 형태를 띄고 있으나,
 
 ![shell](https://github.com/akizakic/akizakic.github.io/blob/main/shellSort.png?raw=true)
 
+다른 정렬들에 비해 실행 시간이 유독 빠른 것을 볼 수 있다.
+
 ## 퀵 정렬
 
 ![quick](https://github.com/akizakic/akizakic.github.io/blob/main/quickSort.png?raw=true)
+
+랜덤 데이터에 대한 값을 보면 0에 가깝지만, 다른 값들은 O(n^2)의 시간 복잡도를 보여주고 있다.
+이처럼 퀵 정렬은 일반적으로 O(nlogn)을 따르지만, 최악의 경우 O(n^2)을 따를 수 있다.
