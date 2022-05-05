@@ -1,6 +1,7 @@
 # 정렬 알고리즘 (202101613 양채은)
 
-입력받는 데이터의 개수를 2의 20승까지 늘려볼려고 하였으나, 실행 시간이 너무 오래 걸려서 2의 12승~13승까지밖에 못해봤습니다.
+버블정렬,선택정렬,삽입정렬, 쉘정렬, 힙정렬, 퀵정렬에 대한 코드를 구현하고 그 코드가 데이터 입력값에 따라 수행되는 시간을 뽑아내고 엑셀에 정리하여 그래프로 나타내는 과정을 진행하였다.      
+입력받는 데이터의 개수를 2의 20승까지 늘려볼려고 하였으나, 실행 시간이 너무 오래 걸려서 2의 12승~13승까지밖에 못해봤다.
 
 
 ## 버블정렬
@@ -8,7 +9,7 @@
 ![bubble](https://github.com/akizakic/akizakic.github.io/blob/main/bubbleSort.png?raw=true)
 
 O(n^2)의 형태를 띄고 있으나,    
-다른 정렬들과 비교하였을 떄 가장 오랜 실행시간이 걸림을 볼 수 있다.
+다른 정렬들과 비교하였을 떄 데이터 값이 늘어감에 따라 유독 오랜 수행시간이 걸림을 볼 수 있다.
 
 
 ## 선택정렬
@@ -30,6 +31,12 @@ O(n^2)의 형태를 띄고 있으나,
 ![shell](https://github.com/akizakic/akizakic.github.io/blob/main/shellSort.png?raw=true)
 
 다른 정렬들에 비해 실행 시간이 유독 빠른 것을 볼 수 있다.
+
+## 힙 정렬
+
+![heap](https://raw.githubusercontent.com/akizakic/akizakic.github.io/385d0733d2a57312b63ba4f8f1fcf145acce4064/heapSort.png)
+
+세가지의 경우 모두 O(nlogn)의 시간복잡도를 잘 따르는 것이 잘 보여진다.
 
 ## 퀵 정렬
 
