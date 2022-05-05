@@ -37,7 +37,8 @@ public class Sort {
                 //ShellSort(list, com);
                 //selectSort(list,com);
                 //insertionSort(list,com);
-                quickSort(0, list.size()-1, list,com);
+                //quickSort(0, list.size()-1, list,com);
+                HeapSort(list);
                 t = System.currentTimeMillis() - t;
                 l += t;
             }
@@ -59,7 +60,8 @@ public class Sort {
                 //ShellSort(list, com);
                 //selectSort(list,com);
                 //insertionSort(list,com);
-                quickSort(0, list.size()-1, list,com);
+                //quickSort(0, list.size()-1, list,com);
+                HeapSort(list);
                 t = System.currentTimeMillis() - t;
                 l += t;
             }
@@ -80,7 +82,8 @@ public class Sort {
                 //ShellSort(list, com);
                 //selectSort(list,com);
                 //insertionSort(list,com);
-                quickSort(0, list.size()-1, list,com);
+                //quickSort(0, list.size()-1, list,com);
+                HeapSort(list);
                 t = System.currentTimeMillis() - t;
                 l += t;
             }
@@ -235,6 +238,18 @@ public class Sort {
         }
 
 
+    }
+
+    private static <T> void HeapSort(List<T> list){
+        PriorityQueue<T> heap = new PriorityQueue<T>();
+
+        for(int i = 0; i < list.size(); i++){
+            heap.add(list.get(i));
+        }
+
+        for(int i = 0; i < list.size(); i++){
+            list.set(i, heap.poll());
+        }
     }
 
 
